@@ -326,6 +326,13 @@ footer p:nth-child(2){
     animation: moveToRight 3s ease-in-out;
 }
 
+.initial {
+	animation: colorChanger1 5s;
+}
+
+.name {
+	animation: colorChanger2 5s;
+}
 
 @keyframes moveToLeft {
     0% {
@@ -367,6 +374,16 @@ footer p:nth-child(2){
       opacity: 1;
       transform: translateX(0);
     }
+}
+
+@keyframes colorChanger1 {
+	from {color: red;}
+	to {color: white;}
+}
+
+@keyframes colorChanger2 {
+	from {color: white;}
+	to {color: red;}
 }
 
 .btn-white::after {
