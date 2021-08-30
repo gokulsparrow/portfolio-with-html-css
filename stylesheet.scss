@@ -121,18 +121,18 @@ body {
 	width: 430px;
 }
 
+h2{
+	color:$secoundcolor;
+	font-size: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
 .service{
 	background: #101010;
 	width: 100%;
 	padding: 100px 0px;
-
-	.title h2{
-		color:$secoundcolor;
-		font-size: 75px;
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-	}
 
 	.box{
 		display: flex;
@@ -281,6 +281,7 @@ h5{
 	flex-direction: column;
 	justify-content: center;
 }
+
 .contact-me p{
 	color:$secoundcolor;
 	font-size: 30px;

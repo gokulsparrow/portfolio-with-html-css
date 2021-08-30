@@ -127,18 +127,18 @@ body {
   width: 430px;
 }
 
-.service {
-  background: #101010;
-  width: 100%;
-  padding: 100px 0px;
-}
-
-.service .title h2 {
+h2 {
   color: #FAEAFF;
   font-size: 75px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.service {
+  background: #101010;
+  width: 100%;
+  padding: 100px 0px;
 }
 
 .service .box {
